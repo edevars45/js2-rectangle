@@ -1,0 +1,87 @@
+/* General reset to avoid browser-specific default styling issues */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body for better appearance */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling the container */
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Styling the heading */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Styling labels and inputs */
+label {
+    width: 20%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Styling the input fields */
+input[type="number"] {
+    width: calc(20% - 24px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Styling the buttons */
+button {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Styling the spans */
+span {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#perimeter_state, #area_state, #is_square_state {
+    margin-top: 10px;
+}
+
